@@ -4,7 +4,7 @@ import { MdPerson, MdDescription, MdLocalOffer } from "react-icons/md";
 import IframePreview from "../previews/IframePreview";
 
 // Web preview configuration
-const remoteURL = "https://preview-everplans3main.gtsb.io";
+const remoteURL = "https://preview-evpdemo.gtsb.io";
 const localURL = "http://localhost:8000";
 const previewURL =
   window.location.hostname === "localhost" ? localURL : remoteURL;
